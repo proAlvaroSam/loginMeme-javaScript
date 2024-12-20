@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <div class="password-container">
+                        <input type="password" id="password" required>
+                        <i class="fa-solid fa-eye-slash toggle-password"></i>
+                    </div>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox" id="remember"> Lembrar-me
+                    </label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+            <p class="register-link">
+                Não tem uma conta? <a href="#">Registre-se</a>
+            </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
