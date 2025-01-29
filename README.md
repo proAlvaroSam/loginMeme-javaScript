@@ -14,3 +14,5 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 - **HTML**: Para estruturar a página.
 - **CSS**: Para estilizar a interface do usuário.
 - **JavaScript**: Para adicionar interatividade à página.
+
+![Visual da página de Login](imagens para o Readme/Visual  do Login.png)
